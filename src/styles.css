@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.comentHeader {
+  display: flex;
+  margin: 10px 0;
+}
+
+.commentBox {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  width: 80vw;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.headContent {
+  display: flex;
+  padding: 10px;
+}
+
+.userName {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.timeStamp {
+  padding: 0 10px;
+  color: rgb(133, 136, 137);
+}
+
+.replyButton {
+  background-color: transparent;
+  border: none;
+  color: #5557b7;
+  padding: 0;
+}
